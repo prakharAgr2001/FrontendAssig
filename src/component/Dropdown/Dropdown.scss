@@ -1,0 +1,24 @@
+.dropdown {
+  position: relative;
+  
+  .button-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-image {
+    border-radius: 50%;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+  }
+  
+  // Media query for smaller screens
+  @media screen and (max-width: 768px) {
+    .user-image {
+      width: 14px;
+      height: 14px;
+      margin-right: 4px;
+    }
+  }
+}

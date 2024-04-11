@@ -1,0 +1,22 @@
+.user {
+    h1 {
+      margin-right: 300px;
+  
+    
+      @media screen and (max-width: 768px) {
+        margin-right: 0; 
+      }
+    }
+  
+    ul {
+      list-style: none;
+      margin-left: 460px;
+  
+      
+      @media screen and (max-width: 768px) {
+        margin-left: 0;
+        margin-right: 0; 
+      }
+    }
+  }
+  

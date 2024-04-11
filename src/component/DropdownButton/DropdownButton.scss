@@ -1,0 +1,34 @@
+.dropdown-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 180px;
+  margin-top: 10px;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+  
+  .toggle-icon {
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+  }
+
+  // Media query for smaller screens
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    margin: 10px 0;
+    padding: 0.5rem;
+    
+    .toggle-icon {
+      margin-left: 0;
+    }
+  }
+}
+
+.button-open {
+  border: rgb(147 197 253) 2px solid;
+}

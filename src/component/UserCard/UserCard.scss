@@ -1,0 +1,151 @@
+.card {
+  border: 0.5px solid grey;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+
+  // Media query for smaller screens
+  @media screen and (max-width: 768px) {
+    width: 100%; // Adjust width for smaller screens
+    padding: 5px; // Adjust padding for smaller screens
+  }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  input {
+    height: 40px;
+    font-size: 20px;
+    width: 230px;
+
+    // Media query for smaller screens
+    @media screen and (max-width: 768px) {
+      width: 100%; // Adjust width for smaller screens
+    }
+  }
+
+  .card-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .card-header h2 {
+    margin: 0;
+  }
+
+  .card-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    text-align: left;
+    
+.double{
+  display: flex;
+      flex-direction: row;
+}
+    input {
+      margin-top: 2px;
+      width: 100px;
+      height: 12px;
+      font-size: 13px;
+      
+
+      // Media query for smaller screens
+      @media screen and (max-width: 768px) {
+        width: 100%; // Adjust width for smaller screens
+      }
+    }
+  }
+
+  .card-info > div {
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  .card-info label {
+    color: grey;
+  }
+
+  .card-footer {
+    margin-top: 10px;
+  }
+
+  .card-footer p {
+    margin: 0;
+  }
+
+  button {
+    margin-top: 10px;
+    float: right;
+    margin-right: 5px;
+    border: none;
+    background-color: white;
+
+    #trash-icon {
+      color: red;
+    }
+    #edit-icon {
+      color: rgb(127, 127, 221);
+    }
+    #save-icon {
+      color: green;
+      border-radius: 50%;
+      border: 1px solid green;
+      padding: 5px;
+    }
+    #times-icon {
+      color: red;
+      border-radius: 50%;
+      border: 1px solid red;
+      padding: 5px;
+    }
+  }
+
+  .fields {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .description {
+    text-align: left;
+    label {
+      color: grey;
+    }
+    p {
+      margin-top: 2px;
+      width: fit-content;
+      font-weight: 20px;
+      text-align: left;
+    }
+    input {
+      height: fit-content;
+    }
+    .dd {
+      min-height: 120px;
+    }
+  }
+
+  .l {
+    display: flex;
+    margin-right: 10px;
+    flex-direction: left;
+  }
+
+  // Media query for smaller screens
+  @media screen and (max-width: 768px) {
+    .fields,
+    .description {
+      label {
+        margin-left: 0;
+      }
+    }
+  }
+}
